@@ -6,7 +6,7 @@ Um sistema de monitoramento climático desenvolvido em MicroPython para o ESP32.
 
 ## 📖 Contexto do Projeto
 
-Este projeto foi desenvolvido como trabalho acadêmico para a disciplina de [Nome da Disciplina] do curso de Engenharia de Software. O objetivo era aplicar conceitos de desenvolvimento de software embarcado utilizando MicroPython, com foco na criação de uma interface de usuário funcional com múltiplas telas.
+Este projeto foi desenvolvido como trabalho acadêmico para a disciplina de Fundamentos de Sistema Ciberfísicos do curso de Engenharia de Software. O objetivo era aplicar conceitos de desenvolvimento de software embarcado utilizando MicroPython, com foco na criação de uma interface de usuário funcional com múltiplas telas.
 
 A funcionalidade de "Previsão de Chuva" foi uma sugestão de aprimoramento para o projeto.
 
@@ -32,7 +32,7 @@ A funcionalidade de "Previsão de Chuva" foi uma sugestão de aprimoramento para
 Este projeto é 100% simulado e pode ser executado diretamente no seu navegador.
 
 1.  **Acesse o Projeto:**
-    * Clique neste link para abrir o simulador: [**https://wokwi.com/projects/[SEU_LINK_DO_PROJETO_AQUI]**](https://wokwi.com/projects/[SEU_LINK_DO_PROJETO_AQUI])
+    * Clique neste link para abrir o simulador: [**https://wokwi.com/projects/445254838286222337**]
 
 2.  **Inicie a Simulação:**
     * Clique no botão "Play" (▶️) no topo da tela.
