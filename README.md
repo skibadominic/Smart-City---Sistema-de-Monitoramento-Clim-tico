@@ -1,4 +1,4 @@
-# 🌦️ Projeto MicroClima: Estação Meteorológica no Wokwi
+# 🌦️ Sistema de Monitoramento Climático: Estação Meteorológica no Wokwi
 
 [![Simular no Wokwi](https://img.shields.io/badge/Simular%20no-Wokwi-blue?logo=wokwi)](https://wokwi.com/projects/[SEU_LINK_DO_PROJETO_AQUI])
 
