@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "author": "Dominic",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp",
+      "top": 23.9,
+      "left": 33.4,
+      "attrs": { "env": "micropython-20220618-v1.19.1" }
+    },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": 29.1,
+      "left": -159,
+      "attrs": { "temperature": "19.6", "humidity": "32" }
+    },
+    { "type": "wokwi-rgb-led", "id": "rgb1", "top": -5.6, "left": -18.1, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": 65.9, "left": -96.2, "attrs": {} },
+    {
+      "type": "board-ssd1306",
+      "id": "oled1",
+      "top": 31.94,
+      "left": 201.83,
+      "attrs": { "i2cAddress": "0x3c" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "dht1:GND", "esp:GND.2", "black", [ "v0" ] ],
+    [ "pot1:GND", "esp:GND.2", "black", [ "v0" ] ],
+    [ "dht1:SDA", "esp:D13", "violet", [ "v19.2", "h124.9", "v-19.2" ] ],
+    [ "pot1:SIG", "esp:D34", "violet", [ "v19.2", "h86", "v-76.8" ] ],
+    [ "rgb1:R", "esp:D25", "violet", [ "v0" ] ],
+    [ "rgb1:G", "esp:D26", "violet", [ "v0" ] ],
+    [ "rgb1:B", "esp:D27", "violet", [ "v0" ] ],
+    [ "dht1:VCC", "esp:3V3", "gold", [ "v105.6", "h297.6", "v-67.2" ] ],
+    [ "pot1:VCC", "esp:3V3", "gold", [ "v124.8", "h210.4", "v-76.8" ] ],
+    [ "oled1:GND", "esp:GND.1", "black", [ "v-9.6", "h-38.4", "v115.2" ] ],
+    [ "oled1:VCC", "esp:3V3", "gold", [ "v-19.2", "h-57.45", "v134.4" ] ],
+    [ "oled1:SCL", "esp:D22", "violet", [ "v-28.8", "h-76.5", "v48" ] ],
+    [ "oled1:SDA", "esp:D21", "violet", [ "v-38.4", "h-95.93", "v86.4" ] ],
+    [ "rgb1:COM", "esp:3V3", "gold", [ "v182", "h144.1", "v-48" ] ]
+  ],
+  "dependencies": {}
+}
