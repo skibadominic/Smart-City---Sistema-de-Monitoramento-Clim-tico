@@ -39,7 +39,6 @@ Este projeto é 100% simulado e pode ser executado diretamente no seu navegador.
 
 3.  **Interaja:**
     * Aguarde o ESP32 inicializar.
-    * Use os botões [ex: botões de "Up" e "Down"] para navegar entre as telas.
     * (Se aplicável) Clique nos sensores simulados para alterar os valores e veja a atualização no display.
 
 ## 👨‍💻 Autor
